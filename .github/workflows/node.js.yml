@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x, 20.x] # เพิ่ม Node.js เวอร์ชัน 20.x ใน matrix
+        node-version: [16.x, 18.x, 20.x] # เพิ่ม Node.js เวอร์ชัน 20.x ใน matrix
 
     steps:
     - uses: actions/checkout@v3
